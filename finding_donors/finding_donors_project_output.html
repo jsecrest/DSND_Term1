@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>finding_donors_submission</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>finding_donors_project_output</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -15029,6 +15029,94 @@ It is a ratio of true positives(words classified as spam, and which are actually
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><strong>Answer: </strong></p>
+<p>AdaBoost</p>
+<ul>
+<li>Describe one real-world application in industry where the model can be applied.<ul>
+<li>Face recognition: ADA Boost is used to combine multiple week learners to create recognition layers. </li>
+</ul>
+</li>
+<li>What are the strengths of the model; when does it perform well?<ul>
+<li>ADA Boost is a boosting ensemble method. Boosting methods decrease bias at the expense of variance.<ul>
+<li>Lower bias and higher variance leads to good use of the training data, but a higher tendency to overfit.</li>
+</ul>
+</li>
+<li>ADA Boost is easy to use and is flexible. It can work with a lot of different ML algorithms. It performs well when
+with uniform and very clean data sets. </li>
+</ul>
+</li>
+<li>What are the weaknesses of the model; when does it perform poorly?<ul>
+<li>ADA Boost has a hard time with "noisy" data and outliers.</li>
+</ul>
+</li>
+<li>What makes this model a good candidate for the problem, given what you know about the data?<ul>
+<li>This is a pretty clean dataset with reasonably uniform data.</li>
+</ul>
+</li>
+<li>Reference sources<ol>
+<li>(2020) A Guide To Understanding AdaBoost. In: Paperspace Blog. <a href="https://blog.paperspace.com/adaboost-optimizer/">https://blog.paperspace.com/adaboost-optimizer/</a>. Accessed 20 Jun 2022</li>
+<li>(2019) AdaBoost Algorithm | Quick Start Guide To AdaBoost Algorithm in Detail. In: EDUCBA. <a href="https://www.educba.com/adaboost-algorithm/">https://www.educba.com/adaboost-algorithm/</a>. Accessed 20 Jun 2022</li>
+<li>Singh S (2018) Understanding the Bias-Variance Tradeoff. In: Medium. <a href="https://towardsdatascience.com/understanding-the-bias-variance-tradeoff-165e6942b229">https://towardsdatascience.com/understanding-the-bias-variance-tradeoff-165e6942b229</a>. Accessed 20 Jun 2022</li>
+</ol>
+</li>
+</ul>
+<p>Random Forest</p>
+<ul>
+<li>Describe one real-world application in industry where the model can be applied.<ul>
+<li>Random Forest can be used to predict whether a person is at risk for disease, or has a disease.</li>
+</ul>
+</li>
+<li>What are the strengths of the model; when does it perform well?<ul>
+<li>Random Forest normally has less overfitting than a standard decision tree.</li>
+<li>Random Forest is flexible, and tends to have high accuracy for both classification and regression.</li>
+<li>Random Forest are good at balancing bias and variance</li>
+<li>Random Forest works well with multiple data types.</li>
+</ul>
+</li>
+<li>What are the weaknesses of the model; when does it perform poorly?<ul>
+<li>Random Forest can be processing intensive, especially on enormous datasets.</li>
+<li>Random Forest can be difficult to interpret. </li>
+</ul>
+</li>
+<li>What makes this model a good candidate for the problem, given what you know about the data?<ul>
+<li>This data set isn't massive, and Random Forest is a good general purpose classifier.</li>
+</ul>
+</li>
+<li>Reference sources<ol>
+<li>Team GL (2020) Random forest Algorithm in Machine learning: An Overview. In: GreatLearning Blog: Free Resources what Matters to shape your Career! <a href="https://www.mygreatlearning.com/blog/random-forest-algorithm/">https://www.mygreatlearning.com/blog/random-forest-algorithm/</a>. Accessed 20 Jun 2022</li>
+<li>Singh J (2020) Random Forest: Pros and Cons. In: Medium. <a href="https://medium.datadriveninvestor.com/random-forest-pros-and-cons-c1c42fb64f04">https://medium.datadriveninvestor.com/random-forest-pros-and-cons-c1c42fb64f04</a>. Accessed 20 Jun 2022</li>
+</ol>
+</li>
+</ul>
+<p>Support Vector Machines (SVM)</p>
+<ul>
+<li>Describe one real-world application in industry where the model can be applied. </li>
+<li>What are the strengths of the model; when does it perform well?<ul>
+<li>SVM is fast at predictions</li>
+<li>SVM works well with a large number of features</li>
+<li>SVM is very flexible, especially because it has multiple kernels to chose form.</li>
+</ul>
+</li>
+<li>What are the weaknesses of the model; when does it perform poorly?<ul>
+<li>SVM trains slowly and can be very process intensive. Especially with big data sets.<ul>
+<li>sklearn documentation[1] suggests that it might be "impractical beyond tens of thousands of samples."</li>
+</ul>
+</li>
+<li>SVM requires a deeper understanding of the kernels to use skillfully.</li>
+<li>SVM has low interpretability</li>
+<li>SVM risks overfitting</li>
+</ul>
+</li>
+<li>What makes this model a good candidate for the problem, given what you know about the data?<ul>
+<li>Our data set is almost too big to use with SVM, but is still within reasonable limits.</li>
+<li>We have a lot of features after hot-swapping</li>
+</ul>
+</li>
+<li>Reference sources<ol>
+<li>sklearn.svm.SVC. In: scikit-learn. <a href="https://scikit-learn/stable/modules/generated/sklearn.svm.SVC.html">https://scikit-learn/stable/modules/generated/sklearn.svm.SVC.html</a>. Accessed 20 Jun 2022</li>
+<li>Support Vector Machine Pros &amp; Cons. In: HolyPython.com. <a href="https://holypython.com/svm/support-vector-machine-pros-cons/">https://holypython.com/svm/support-vector-machine-pros-cons/</a>. Accessed 20 Jun 2022</li>
+</ol>
+</li>
+</ul>
 
 </div>
 </div>
@@ -15330,10 +15418,10 @@ multiple times, using this weighted feedback system to fine tune its selection c
 data groups. Each iteration will add thresholds to subdivide the previous data groups to account for misclassified 
 points. This iterative process results in a Decision Tree that will be followed when making predictions.</p>
 <p>Referential material:</p>
-<ul>
-<li><a href="https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html">https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html</a></li>
-<li><a href="https://en.wikipedia.org/wiki/AdaBoost">https://en.wikipedia.org/wiki/AdaBoost</a></li>
-</ul>
+<ol>
+<li>(2022) AdaBoost. Wikipedia. Accessed 20 Jun 2022</li>
+<li>(2019) AdaBoost Algorithm | Quick Start Guide To AdaBoost Algorithm in Detail. In: EDUCBA. <a href="https://www.educba.com/adaboost-algorithm/">https://www.educba.com/adaboost-algorithm/</a>. Accessed 20 Jun 2022</li>
+</ol>
 
 </div>
 </div>
